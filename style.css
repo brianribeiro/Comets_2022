@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        height: auto;
+    }
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 2.7em;
+    padding: 7px;
+}
+
+header > h2{
+    font-size: 2.25em;
+    padding: 7px;
+}
+
+header > p{
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    max-width: 1100px;
+    min-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.103);
+}
+
+nav {
+    padding: 10px 0px;
+    background-color: black;
+    text-align: center;
+}
+
+#dropname {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbutton {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 15px;
+    position: relative;
+}
+
+.drop_content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    min-width: 750px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.205);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.column > a {
+    display: block;
+    padding: 7px 0px;
+    color: black;
+    text-decoration: none;
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+.dropbutton:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#dropname:hover .drop_content {
+    display: block;
+}
+
+.drop_content a:hover {
+    background-color: rgb(223, 223, 223);
+    font: bold 1em Arial, Helvetica, sans-serif;
+    transition: 0.1s;
+}
+
+article#intro{
+    margin: 0px 0px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 18px;
+    box-shadow: 0px 0px 1px 0.5px rgba(0, 0, 0, 0.151);
+}
+
+article > p#alert{
+    background-color: rgb(255, 0, 0);
+    margin: -8px -8px 4px -8px;
+    padding: 7px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+main > section{
+    font: normal 1em Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+main > section > p{
+    margin: 15px 0px;
+    padding: 5px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+a.comet{
+    font-size: 1.5em;
+}
+
+hr{
+    margin: 5px 0px 15px 0px;
+}
+
+main > article#ending{
+    margin: 0px 0px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 18px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
